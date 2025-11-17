@@ -2,6 +2,8 @@ package Tutorialsninja;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
+import Base.BaseClass;
+
 
 public class TC_001 extends BaseClass {
 

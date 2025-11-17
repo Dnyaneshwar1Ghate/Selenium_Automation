@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-17T17:40:40 IST" name="AutomationSuite" finished-at="2025-11-17T17:40:45 IST" duration-ms="4193">
+  <suite started-at="2025-11-17T17:42:43 IST" name="AutomationSuite" finished-at="2025-11-17T17:42:47 IST" duration-ms="4086">
     <groups>
     </groups>
-    <test started-at="2025-11-17T17:40:40 IST" name="RegisterTest" finished-at="2025-11-17T17:40:45 IST" duration-ms="4193">
+    <test started-at="2025-11-17T17:42:43 IST" name="RegisterTest" finished-at="2025-11-17T17:42:47 IST" duration-ms="4086">
       <class name="Tutorialsninja.TC_001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tutorialsninja.TC_001@6ed3ccb2]" started-at="2025-11-17T17:40:40 IST" name="setup" finished-at="2025-11-17T17:40:42 IST" duration-ms="1968" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tutorialsninja.TC_001@6ed3ccb2]" started-at="2025-11-17T17:42:43 IST" name="setup" finished-at="2025-11-17T17:42:45 IST" duration-ms="1924" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registerWithFields()[pri:0, instance:Tutorialsninja.TC_001@6ed3ccb2]" started-at="2025-11-17T17:40:42 IST" name="registerWithFields" finished-at="2025-11-17T17:40:45 IST" duration-ms="2179" status="PASS">
+        <test-method signature="registerWithFields()[pri:0, instance:Tutorialsninja.TC_001@6ed3ccb2]" started-at="2025-11-17T17:42:45 IST" name="registerWithFields" finished-at="2025-11-17T17:42:47 IST" duration-ms="2121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerWithFields -->
