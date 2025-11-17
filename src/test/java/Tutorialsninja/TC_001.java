@@ -1,10 +1,7 @@
 package Tutorialsninja;
-
 import org.openqa.selenium.By;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
-import Base.BaseClass;
 
 public class TC_001 extends BaseClass {
 
@@ -18,7 +15,7 @@ public class TC_001 extends BaseClass {
         getDriver().findElement(By.xpath("//span[text()='My Account']")).click();
 
        
-        getDriver().findElement(By.linkText("Register")).click();
+       getDriver().findElement(By.linkText("Register")).click();
         getDriver().findElement(By.id("input-firstname")).sendKeys("Ashok");
         getDriver().findElement(By.id("input-lastname")).sendKeys("Tester");
         getDriver().findElement(By.id("input-email")).sendKeys("ashok" + System.currentTimeMillis() + "@mail.com");
