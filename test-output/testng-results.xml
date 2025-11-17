@@ -2,27 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-17T17:20:33 IST" name="AutomationSuite" finished-at="2025-11-17T17:20:38 IST" duration-ms="4654">
+  <suite started-at="2025-11-17T17:28:49 IST" name="AutomationSuite" finished-at="2025-11-17T17:28:54 IST" duration-ms="5456">
     <groups>
     </groups>
-    <test started-at="2025-11-17T17:20:33 IST" name="RegisterTest" finished-at="2025-11-17T17:20:38 IST" duration-ms="4654">
+    <test started-at="2025-11-17T17:28:49 IST" name="RegisterTest" finished-at="2025-11-17T17:28:54 IST" duration-ms="5456">
       <class name="Tutorialsninja.TC_001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tutorialsninja.TC_001@2362f559]" started-at="2025-11-17T17:20:33 IST" name="setup" finished-at="2025-11-17T17:20:36 IST" duration-ms="2798" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tutorialsninja.TC_001@4e08711f]" started-at="2025-11-17T17:28:49 IST" name="setup" finished-at="2025-11-17T17:28:51 IST" duration-ms="2030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:Tutorialsninja.TC_001@2362f559]" started-at="2025-11-17T17:20:36 IST" name="setupReport" finished-at="2025-11-17T17:20:36 IST" duration-ms="225" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupReport -->
-        <test-method signature="registerWithFields()[pri:0, instance:Tutorialsninja.TC_001@2362f559]" started-at="2025-11-17T17:20:36 IST" name="registerWithFields" finished-at="2025-11-17T17:20:38 IST" duration-ms="1282" status="PASS">
+        <test-method signature="registerWithFields()[pri:0, instance:Tutorialsninja.TC_001@4e08711f]" started-at="2025-11-17T17:28:51 IST" name="registerWithFields" finished-at="2025-11-17T17:28:54 IST" duration-ms="3385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerWithFields -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:Tutorialsninja.TC_001@2362f559]" started-at="2025-11-17T17:20:38 IST" name="tearDownReport" finished-at="2025-11-17T17:20:38 IST" duration-ms="300" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownReport -->
       </class> <!-- Tutorialsninja.TC_001 -->
     </test> <!-- RegisterTest -->
   </suite> <!-- AutomationSuite -->
