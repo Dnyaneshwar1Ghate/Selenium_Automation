@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import Base.WebdriverSettings;
 
-public class TC_RF_001 extends BaseClass {
+public class TC_RF_001 extends WebdriverSettings {
 
     @Test
     public void registerWithFields() {
@@ -20,16 +20,12 @@ public class TC_RF_001 extends BaseClass {
         
         driver.manage().window().maximize();
         System.out.println("Registration test running...");
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-	wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[text()='My Account']")));
-	WebElement element = driver.findElement(By.xpath("//span[text()='My Account']"));
-	element.click();
+    
 
-  
 
         // Example test steps (Add yours here)
         	
-       // driver.findElement(By.xpath("//span[text()='My Account']")).click();
+       driver.findElement(By.xpath("//span[text()='My Account']")).click();
         driver.findElement(By.linkText("Register")).click();
 
         driver.findElement(By.id("input-firstname")).sendKeys("Ashok");
