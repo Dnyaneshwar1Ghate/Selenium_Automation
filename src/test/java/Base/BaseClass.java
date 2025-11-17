@@ -58,7 +58,7 @@ public class BaseClass {
         }
     }
 
-    @AfterClass
+   // @AfterClass
     public void tearDown() {
         WebDriver driver = driverThread.get();
         if (driver != null) {
