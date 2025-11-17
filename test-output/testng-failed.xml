@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tutorialsninja.Register.TC_RF_001">
+      <class name="Tutorialsninja.Register.Googletest">
         <methods>
-          <include name="registerWithFields"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="goodTest"/>
         </methods>
-      </class> <!-- Tutorialsninja.Register.TC_RF_001 -->
+      </class> <!-- Tutorialsninja.Register.Googletest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
