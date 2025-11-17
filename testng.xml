@@ -5,7 +5,7 @@
 
     <test name="RegisterTest">
         <classes>
-          	<class name="GoogleTest.SampleTest"/>
+          	<class name="Tutorialsninja.TC_001"/>
      
         
            

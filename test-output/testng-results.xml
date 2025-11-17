@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-17T16:53:27 IST" name="Default suite" finished-at="2025-11-17T16:53:30 IST" duration-ms="3310">
+  <suite started-at="2025-11-17T16:59:02 IST" name="AutomationSuite" finished-at="2025-11-17T16:59:07 IST" duration-ms="5042">
     <groups>
     </groups>
-    <test started-at="2025-11-17T16:53:27 IST" name="Default test" finished-at="2025-11-17T16:53:30 IST" duration-ms="3310">
-      <class name="GoogleTest.SampleTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:GoogleTest.SampleTest@1a677343]" started-at="2025-11-17T16:53:27 IST" name="setup" finished-at="2025-11-17T16:53:29 IST" duration-ms="1855" status="PASS">
+    <test started-at="2025-11-17T16:59:02 IST" name="RegisterTest" finished-at="2025-11-17T16:59:07 IST" duration-ms="5042">
+      <class name="Tutorialsninja.TC_001">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tutorialsninja.TC_001@1a677343]" started-at="2025-11-17T16:59:02 IST" name="setup" finished-at="2025-11-17T16:59:04 IST" duration-ms="1865" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="openGoogle()[pri:0, instance:GoogleTest.SampleTest@1a677343]" started-at="2025-11-17T16:53:29 IST" name="openGoogle" finished-at="2025-11-17T16:53:30 IST" duration-ms="1197" status="PASS">
+        <test-method signature="registerWithFields()[pri:0, instance:Tutorialsninja.TC_001@1a677343]" started-at="2025-11-17T16:59:04 IST" name="registerWithFields" finished-at="2025-11-17T16:59:07 IST" duration-ms="2889" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openGoogle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:GoogleTest.SampleTest@1a677343]" started-at="2025-11-17T16:53:30 IST" name="tearDown" finished-at="2025-11-17T16:53:30 IST" duration-ms="223" status="PASS">
+        </test-method> <!-- registerWithFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tutorialsninja.TC_001@1a677343]" started-at="2025-11-17T16:59:07 IST" name="tearDown" finished-at="2025-11-17T16:59:07 IST" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- GoogleTest.SampleTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- Tutorialsninja.TC_001 -->
+    </test> <!-- RegisterTest -->
+  </suite> <!-- AutomationSuite -->
 </testng-results>
