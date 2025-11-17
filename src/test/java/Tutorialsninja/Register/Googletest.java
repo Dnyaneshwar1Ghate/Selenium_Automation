@@ -16,8 +16,7 @@ public class Googletest extends WebdriverSettings {
 			driver =new ChromeDriver();
 			driver.get("https://www.google.com/");
 			driver.findElement(By.xpath("//*[@id=\"gb\"]/div[3]/a")).click();
-			driver.close();
-			
+	
 			
 			
 	}
