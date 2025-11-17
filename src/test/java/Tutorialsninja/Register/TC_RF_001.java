@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import Base.WebdriverSettings;
 
-public class TC_RF_001 extends WebdriverSettings {
+public class TC_RF_001 extends BaseClass {
 
     @Test
     public void registerWithFields() {
