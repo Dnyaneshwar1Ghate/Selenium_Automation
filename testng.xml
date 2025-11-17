@@ -5,10 +5,8 @@
 
     <test name="RegisterTest">
         <classes>
-          
-            <class name="Tutorialsninja.Register.TC_RF_002"/>
-            <class name="Tutorialsninja.Register.TC_RF_003"/>
-            <class name="Tutorialsninja.Register.TC_RF_004"/>
+          	<class name="GoogleTest.SampleTest"/>
+     
         
            
             

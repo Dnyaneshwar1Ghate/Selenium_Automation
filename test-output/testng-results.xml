@@ -2,20 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-12T18:14:58 IST" name="Suite" finished-at="2025-11-12T18:15:04 IST" duration-ms="5961">
+  <suite started-at="2025-11-17T16:53:27 IST" name="Default suite" finished-at="2025-11-17T16:53:30 IST" duration-ms="3310">
     <groups>
     </groups>
-    <test started-at="2025-11-12T18:14:58 IST" name="Test" finished-at="2025-11-12T18:15:04 IST" duration-ms="5961">
-      <class name="Tutorialsninja.Register.TC_RF_001">
-        <test-method signature="registerWithFields()[pri:0, instance:Tutorialsninja.Register.TC_RF_001@7b98f307]" started-at="2025-11-12T18:14:58 IST" name="registerWithFields" finished-at="2025-11-12T18:15:03 IST" duration-ms="5679" status="PASS">
+    <test started-at="2025-11-17T16:53:27 IST" name="Default test" finished-at="2025-11-17T16:53:30 IST" duration-ms="3310">
+      <class name="GoogleTest.SampleTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:GoogleTest.SampleTest@1a677343]" started-at="2025-11-17T16:53:27 IST" name="setup" finished-at="2025-11-17T16:53:29 IST" duration-ms="1855" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerWithFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tutorialsninja.Register.TC_RF_001@7b98f307]" started-at="2025-11-12T18:15:03 IST" name="tearDown" finished-at="2025-11-12T18:15:04 IST" duration-ms="240" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="openGoogle()[pri:0, instance:GoogleTest.SampleTest@1a677343]" started-at="2025-11-17T16:53:29 IST" name="openGoogle" finished-at="2025-11-17T16:53:30 IST" duration-ms="1197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GoogleTest.SampleTest@1a677343]" started-at="2025-11-17T16:53:30 IST" name="tearDown" finished-at="2025-11-17T16:53:30 IST" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Tutorialsninja.Register.TC_RF_001 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- GoogleTest.SampleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
