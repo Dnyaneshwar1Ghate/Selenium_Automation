@@ -20,9 +20,12 @@ public class TC_RF_001 extends WebdriverSettings {
         
         driver.manage().window().maximize();
         System.out.println("Registration test running...");
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        WebElement myAccountElement = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()='My Account']")));
-        myAccountElement.click();
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+	wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[text()='My Account']")));
+	WebElement element = driver.findElement(By.xpath("//span[text()='My Account']"));
+	element.click();
+
+  
 
         // Example test steps (Add yours here)
         	
