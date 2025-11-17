@@ -18,7 +18,7 @@ public class WebdriverSettings {
         WebDriverManager.chromedriver().setup();
 
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless=new");        // Important for Jenkins
+      //  options.addArguments("--headless=new");        // Important for Jenkins
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--disable-gpu");
