@@ -1,6 +1,8 @@
 package Tutorialsninja;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import Base.BaseClass;
@@ -24,7 +26,11 @@ public class TC_001 extends BaseClass {
 
 		getDriver().findElement(By.xpath("//input[@name='agree']")).click();
 		getDriver().findElement(By.xpath("//input[@value='Continue']")).click();
-
+		
+		getDriver().findElement(By.xpath("//a[text()=\"Continue\"]"));
+		String msg="Your Account Has Been Created!";
+		String acutl=getDriver().findElement(By.xpath("//div[@id=\"content\"]/h1")).getText();
+		Assert.assertEquals(msg,acutl,"account varified...");
 		System.out.println("Acccount added sucessfully Done with details");
 
 	}
