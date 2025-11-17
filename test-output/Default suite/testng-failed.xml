@@ -5,9 +5,7 @@
     <classes>
       <class name="Tutorialsninja.Register.TC_RF_001">
         <methods>
-          <include name="setUp"/>
           <include name="registerWithFields"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- Tutorialsninja.Register.TC_RF_001 -->
     </classes>
