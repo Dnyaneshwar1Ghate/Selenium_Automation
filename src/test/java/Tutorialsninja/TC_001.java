@@ -11,7 +11,7 @@ public class TC_001 extends BaseClass {
         public void registerWithFields() {
 
         	 getDriver().get("https://tutorialsninja.com/demo/");
-        	// getDriver().findElement(By.xpath("//span[text()='My Account']")).click();
+        	 getDriver().findElement(By.xpath("//span[text()='My Account']")).click();
         	// getDriver().findElement(By.linkText("Register")).click();  	
         	 
         }
