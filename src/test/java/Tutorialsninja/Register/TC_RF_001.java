@@ -1,6 +1,11 @@
 package Tutorialsninja.Register;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -12,12 +17,16 @@ public class TC_RF_001 extends WebdriverSettings {
     public void registerWithFields() {
 
         driver.get("https://tutorialsninja.com/demo/");
-
+        
+        driver.manage().window().maximize();
         System.out.println("Registration test running...");
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement myAccountElement = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()='My Account']")));
+        myAccountElement.click();
 
         // Example test steps (Add yours here)
-
-        driver.findElement(By.xpath("//span[text()='My Account']")).click();
+        	
+       // driver.findElement(By.xpath("//span[text()='My Account']")).click();
         driver.findElement(By.linkText("Register")).click();
 
         driver.findElement(By.id("input-firstname")).sendKeys("Ashok");
