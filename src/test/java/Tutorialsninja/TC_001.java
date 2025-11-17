@@ -25,7 +25,7 @@ public class TC_001 extends BaseClass {
 		getDriver().findElement(By.xpath("//input[@name='agree']")).click();
 		getDriver().findElement(By.xpath("//input[@value='Continue']")).click();
 
-		System.out.println("Acccount added sucessfully Done");
+		System.out.println("Acccount added sucessfully Done with details");
 
 	}
 
