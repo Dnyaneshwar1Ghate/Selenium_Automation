@@ -3,13 +3,13 @@
 <suite thread-count="10" parallel="classes" name="Failed suite [AutomationSuite]" guice-stage="DEVELOPMENT">
   <test thread-count="10" parallel="classes" name="RegisterTest(failed)">
     <classes>
-      <class name="Tutorialsninja.TC_001">
+      <class name="TestNG.TestNG_TC_001">
         <methods>
           <include name="tearDown"/>
-          <include name="registerWithFields"/>
+          <include name="testNG_001_Test"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- Tutorialsninja.TC_001 -->
+      </class> <!-- TestNG.TestNG_TC_001 -->
     </classes>
   </test> <!-- RegisterTest(failed) -->
 </suite> <!-- Failed suite [AutomationSuite] -->
