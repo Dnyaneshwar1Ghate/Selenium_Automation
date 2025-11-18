@@ -10,7 +10,11 @@ import Base.BaseClass;
 @Test
 class TestNG_TC_001 extends BaseClass {
 	public void testNG_001_Test() {
+		
+		JavascriptExecutor js = (JavascriptExecutor) getDriver();
 		getDriver().get("https://demoqa.com/");
+		getDriver().manage().window().maximize();
+		js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
 		getDriver().findElement(By.xpath("//h5[text()=\"Elements\"]")).click();
 		getDriver().findElement(By.xpath("//span[text()='Text Box']")).click();
 
@@ -24,7 +28,7 @@ class TestNG_TC_001 extends BaseClass {
 		getDriver().findElement(By.id("permanentAddress")).sendKeys("bavdhan pune");
 		// submit
 
-		JavascriptExecutor js = (JavascriptExecutor) getDriver();
+	
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
 		getDriver().findElement(By.id("submit")).click();
 
