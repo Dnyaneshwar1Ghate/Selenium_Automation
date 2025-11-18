@@ -5,7 +5,6 @@
     <classes>
       <class name="TestNG.TestNG_TC_001">
         <methods>
-          <include name="tearDown"/>
           <include name="testNG_001_Test"/>
           <include name="setup"/>
         </methods>
