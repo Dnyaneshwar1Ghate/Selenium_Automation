@@ -7,7 +7,6 @@
 		<classes>
 			<class name="Tutorialsninja.TC_001" />
 			
-			<class name="TestNG.TestNG_TC_001" />
 			<class name="TestNG.TestNG_TC_002" />
 			
 			<class name="BDD.BDD_TC_001" />
