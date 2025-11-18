@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tutorialsninja.TC_001">
+      <class name="TestNG.TestNG_TC_001">
         <methods>
           <include name="tearDown"/>
-          <include name="registerWithFields"/>
+          <include name="testNG_001_Test"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- Tutorialsninja.TC_001 -->
+      </class> <!-- TestNG.TestNG_TC_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

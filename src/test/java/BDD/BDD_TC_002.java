@@ -1,9 +1,12 @@
 package BDD;
 
-class Test3
+import org.testng.annotations.Test;
+
+class BDD_TC_002
 {
-	public static void main()
+	@Test
+	public  void bddtest2()
 {
-	System.out.println("Second Test case  add");
+	System.out.println("bdd 2 test");
 }
 }

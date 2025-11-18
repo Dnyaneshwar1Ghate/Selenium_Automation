@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,27 @@
                     <div class="method-list-content passed suite-AutomationSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationSuite" title="BDD.BDD_TC_001" class="method navigator-link" hash-for-method="bddTest">bddTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationSuite" title="BDD.BDD_TC_002" class="method navigator-link" hash-for-method="bddtest2">bddtest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-AutomationSuite" title="Tutorialsninja.TC_001" class="method navigator-link" hash-for-method="registerWithFields">registerWithFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationSuite" title="TestNG.TestNG_TC_002" class="method navigator-link" hash-for-method="testNG1Demo">testNG1Demo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationSuite" title="TestNG.TestNG_TC_001" class="method navigator-link" hash-for-method="testNG_001_Test">testNG_001_Test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-AutomationSuite -->
@@ -121,6 +141,51 @@
           <div class="suite-AutomationSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">TestNG.TestNG_TC_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNG_001_Test">
+                  </a> <!-- testNG_001_Test -->
+                  <span class="method-name">testNG_001_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-passed -->
+          <div class="suite-AutomationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BDD.BDD_TC_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bddtest2">
+                  </a> <!-- bddtest2 -->
+                  <span class="method-name">bddtest2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-passed -->
+          <div class="suite-AutomationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNG.TestNG_TC_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNG1Demo">
+                  </a> <!-- testNG1Demo -->
+                  <span class="method-name">testNG1Demo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-passed -->
+          <div class="suite-AutomationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">Tutorialsninja.TC_001</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -129,6 +194,21 @@
                   <a name="registerWithFields">
                   </a> <!-- registerWithFields -->
                   <span class="method-name">registerWithFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-passed -->
+          <div class="suite-AutomationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BDD.BDD_TC_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bddTest">
+                  </a> <!-- bddTest -->
+                  <span class="method-name">bddTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -142,10 +222,14 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;classes&quot; name=&quot;AutomationSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;RegisterTest&quot;&gt;
+&lt;suite thread-count=&quot;10&quot; parallel=&quot;classes&quot; name=&quot;AutomationSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;10&quot; parallel=&quot;classes&quot; name=&quot;RegisterTest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Tutorialsninja.TC_001&quot;/&gt;
+      &lt;class name=&quot;TestNG.TestNG_TC_001&quot;/&gt;
+      &lt;class name=&quot;TestNG.TestNG_TC_002&quot;/&gt;
+      &lt;class name=&quot;BDD.BDD_TC_001&quot;/&gt;
+      &lt;class name=&quot;BDD.BDD_TC_002&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- RegisterTest --&gt;
 &lt;/suite&gt; &lt;!-- AutomationSuite --&gt;
@@ -159,7 +243,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">RegisterTest (1 class)</span>
+                <span class="test-name">RegisterTest (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -185,16 +269,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'registerWithFields')
 data.setCell(0, 2, 'Tutorialsninja.TC_001')
-data.setCell(0, 3, 7630);
+data.setCell(0, 3, 3425);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testNG_001_Test')
+data.setCell(1, 2, 'TestNG.TestNG_TC_001')
+data.setCell(1, 3, 1488);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'bddtest2')
+data.setCell(2, 2, 'BDD.BDD_TC_002')
+data.setCell(2, 3, 11);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testNG1Demo')
+data.setCell(3, 2, 'TestNG.TestNG_TC_002')
+data.setCell(3, 3, 10);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'bddTest')
+data.setCell(4, 2, 'BDD.BDD_TC_001')
+data.setCell(4, 3, 10);
 window.suiteTableData['AutomationSuite']= { tableData: data, tableDiv: 'times-div-AutomationSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-AutomationSuite">
               </div> <!-- times-div-AutomationSuite -->
             </div> <!-- times-div -->
@@ -220,15 +320,67 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">TestNG.TestNG_TC_001</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">Tutorialsninja.TC_001</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNG.TestNG_TC_002</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNG1Demo</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BDD.BDD_TC_001</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">bddTest</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BDD.BDD_TC_002</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">bddtest2</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNG.TestNG_TC_001</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNG_001_Test</span>
+                <span class="method-start">2278 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tutorialsninja.TC_001</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">registerWithFields</span>
-                <span class="method-start">1896 ms</span>
+                <span class="method-start">2278 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNG.TestNG_TC_001</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3766 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tutorialsninja.TC_001</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5703 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
