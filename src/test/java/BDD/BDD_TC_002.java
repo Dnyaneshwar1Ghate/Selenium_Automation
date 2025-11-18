@@ -1,4 +1,6 @@
-class Test2
+package BDD;
+
+class Test3
 {
 	public static void main()
 {

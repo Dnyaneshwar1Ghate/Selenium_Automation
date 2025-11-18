@@ -31,6 +31,8 @@ public class TC_001 extends BaseClass {
 		String msg="Your Account Has Been Created!";
 		String acutl=getDriver().findElement(By.xpath("//div[@id=\"content\"]/h1")).getText();
 		Assert.assertEquals(msg,acutl,"account varified...");
+		
+		getDriver().findElement(By.xpath("//*[@id=\"column-right\"]/div/a[1]")).click();
 		System.out.println("Acccount added sucessfully Done with details");
 
 	}
